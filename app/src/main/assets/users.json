@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Abraham",
+      "surName": "Lincoln"
+    },
+    {
+      "name": "Barack",
+      "surName": "Obama"
+    },
+    {
+      "name": "Theodore",
+      "surName": "Roosevelt"
+    },
+    {
+      "name": "Harry",
+      "surName": "S. Truman"
+    },
+    {
+      "name": "John",
+      "surName": "Adams"
+    },
+    {
+      "name": "Dwightqp1",
+      "surName": "D. Eisenhower"
+    }
+  ]
+}

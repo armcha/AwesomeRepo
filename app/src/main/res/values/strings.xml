@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Awesome project</string>
+    <string name="name_surname">Name and surname</string>
+    <string name="add">ADD</string>
+    <string name="empty_name_error">Name is required</string>
+    <string name="empty_surname_error">Surname is required</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+</resources>

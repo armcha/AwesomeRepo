@@ -1,4 +1,4 @@
-package io.github.armcha.awesomeproject.data.json_reader
+package io.github.armcha.awesomeproject.data.api.json_reader
 
 import android.app.Application
 import org.json.JSONObject

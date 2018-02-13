@@ -1,7 +1,7 @@
 package io.github.armcha.awesomeproject.data.api
 
-import io.github.armcha.awesomeproject.data.json_reader.JsonReader
-import io.github.armcha.awesomeproject.data.parser.Parser
+import io.github.armcha.awesomeproject.data.api.json_reader.JsonReader
+import io.github.armcha.awesomeproject.data.api.parser.Parser
 import io.github.armcha.awesomeproject.model.User
 
 class MockUserApi(private val parser: Parser, private val jsonReader: JsonReader) : Api {

@@ -1,12 +1,12 @@
 package io.github.armcha.awesomeproject
 
 import android.app.Application
-import io.github.armcha.awesomeproject.injector.Injector
+import io.github.armcha.awesomeproject.injection.Injection
 
 class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Injector.injectApp(this)
+        Injection.injectApp(this)
     }
 }

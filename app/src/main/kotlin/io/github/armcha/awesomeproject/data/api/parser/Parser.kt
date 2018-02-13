@@ -1,4 +1,4 @@
-package io.github.armcha.awesomeproject.data.parser
+package io.github.armcha.awesomeproject.data.api.parser
 
 import io.github.armcha.awesomeproject.model.User
 import org.json.JSONObject

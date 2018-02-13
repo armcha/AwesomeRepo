@@ -3,7 +3,7 @@ package io.github.armcha.awesomeproject.presentation.main
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import io.github.armcha.awesomeproject.R
-import io.github.armcha.awesomeproject.injector.Injector
+import io.github.armcha.awesomeproject.injection.Injection
 import io.github.armcha.awesomeproject.model.User
 import io.github.armcha.awesomeproject.presentation.adapter.UserAdapter
 import io.github.armcha.awesomeproject.presentation.base.BaseActivity
@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : BaseActivity<MainContract.View, MainContract.Presenter>(),
         MainContract.View, InputDialog.InputDialogListener {
 
-    override fun initPresenter() = Injector.provideMainPresenter()
+    override fun initPresenter() = Injection.provideMainPresenter()
     private lateinit var userAdapter: UserAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {

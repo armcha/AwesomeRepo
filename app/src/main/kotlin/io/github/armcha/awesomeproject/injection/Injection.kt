@@ -1,10 +1,10 @@
-package io.github.armcha.awesomeproject.injector
+package io.github.armcha.awesomeproject.injection
 
 import android.app.Application
 import io.github.armcha.awesomeproject.data.api.Api
-import io.github.armcha.awesomeproject.data.json_reader.JsonReader
+import io.github.armcha.awesomeproject.data.api.json_reader.JsonReader
 import io.github.armcha.awesomeproject.data.api.MockUserApi
-import io.github.armcha.awesomeproject.data.parser.Parser
+import io.github.armcha.awesomeproject.data.api.parser.Parser
 import io.github.armcha.awesomeproject.data.local.UserCache
 import io.github.armcha.awesomeproject.data.repository.UserDataRepository
 import io.github.armcha.awesomeproject.data.repository.UserRepository
@@ -14,7 +14,7 @@ import io.github.armcha.awesomeproject.presentation.main.MainContract
 import io.github.armcha.awesomeproject.presentation.main.MainPresenter
 import kotlin.properties.Delegates
 
-object Injector {
+object Injection {
 
     private var application: Application by Delegates.notNull()
 
